@@ -16,7 +16,7 @@ I think this is a pre-compiler package too so the code will be converted into st
 Let's have a look at some code examples from the video, this can also be found on the written tutorial [here][resocoder].
 
 Standard Flutter code:
-```Dart
+```dart
 class MessageDisplayClassic extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -46,7 +46,7 @@ class MessageDisplayClassic extends StatelessWidget {
 ```
 
 Division package code:
-```Dart
+```dart
 class MessageDisplayDivision extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
