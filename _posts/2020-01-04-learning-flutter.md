@@ -1,10 +1,8 @@
 ---
-layout: post
 title: "I'm Learning Flutter!"
-date: 2020-01-04 22:09
-category: flutter
-tags: [flutter development]
+date: 2020-01-04
 summary: "My first foray into app development with flutter."
+tags: [development, flutter]
 ---
 
 I have decided to start learning Flutter (and therefore, Dart) to create apps for iOS and Android.

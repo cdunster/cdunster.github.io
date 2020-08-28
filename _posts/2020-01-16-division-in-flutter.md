@@ -1,11 +1,8 @@
 ---
-created: 2020-01-16T23:37:44+01:00
-layout: post
-title: Division in Flutter
-date: 2020-01-16 23:37
-category: flutter
-tags: [flutter development]
+title: "Division in Flutter"
+date: 2020-01-16
 summary: "A useful Flutter package for streamlining widget styles."
+tags: [development, flutter]
 ---
 
 Today, I watched [this YouTube video][youtube] which is an intro into Division: a Flutter package which allows you to easily style Flutter widgets using a CSS inspired syntax.
