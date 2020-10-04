@@ -8,7 +8,7 @@ $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
-$spacing-unit:     30px !default;
+$spacing-unit:     0px !default;
 
 $text-color:       #111 !default;
 $background-color: #fdfdfd !default;
@@ -45,7 +45,8 @@ $on-laptop:        800px !default;
 
 // Import partials.
 @import
-  "minima/base",
-  "minima/layout",
-  "minima/syntax-highlighting"
+  "base",
+  "layout",
+  "syntax-highlighting",
+  "sidebar"
 ;
