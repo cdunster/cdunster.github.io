@@ -82,3 +82,13 @@
         }
     }
 }
+
+@include media-query($on-palm) {
+    .sidebar {  
+        width: 100vw;
+    }
+
+    .profile h2 {
+        font-size: 3em;
+    }
+}
