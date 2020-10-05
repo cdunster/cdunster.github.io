@@ -6,7 +6,11 @@
         <center>
             <img src="/assets/portrait.jpg" />
             <h2>{{ site.author }}</h2>
-            <!-- {%- include social.html -%} -->
+            <div class="social-icons">
+                <a class="fab fa-github" href="https://github.com/{{ site.github_username| cgi_escape | escape }}"></a>
+                <a class="fab fa-twitter"
+                    href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"></a>
+            </div>
         </center>
     </div>
     <nav class="nav">
