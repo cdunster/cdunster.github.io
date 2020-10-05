@@ -48,21 +48,13 @@
             text-transform: uppercase;
             text-decoration: none;
             letter-spacing: 0.4em;
-            color: rgba(#FFF, 0.35);
+            color: rgba(#FFF, 0.75);
             display: block;
             transition: all ease-out 300ms;
         }
-        
-        &.active a {
+
+        &:hover a {
             color: white;
-        }
-        
-        &:not(.active)::after {
-            opacity: 0.2;
-        }
-        
-        &:not(.active):hover a {
-            color: rgba(#FFF, 0.75);
         }
         
         &::after {
@@ -73,7 +65,8 @@
             background: black;
             left: 0;
             bottom: 0;
-            background-image: linear-gradient(to right, #38324e, #a15e11)
+            background-image: linear-gradient(to right, #38324e, #a15e11);
+            opacity: 0.5;
         }
     }
 }
