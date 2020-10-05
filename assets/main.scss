@@ -2,4 +2,47 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "minima";
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+body {
+    font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #111;
+    background-color: #fdfdfd;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    min-height: 100vh;
+    margin: 0px;
+    max-width: 100vw;
+}
+
+.main-content {
+    width: 75%;
+    float: right;
+}
+
+pre {
+    overflow-x: auto;
+}
+
+@import "sidebar";
+
+@include media-query($on-palm) {
+    .main-content {
+        width: 100%;
+        float: unset;
+    }
+}

@@ -2,11 +2,13 @@
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 
 <aside class="sidebar">
-    <header class="profile">
-        <img src="/assets/portrait.jpg" />
-        <h2>{{ site.author }}</h2>
-        {%- include social.html -%}
-    </header>
+    <div class="profile">
+        <center>
+            <img src="/assets/portrait.jpg" />
+            <h2>{{ site.author }}</h2>
+            <!-- {%- include social.html -%} -->
+        </center>
+    </div>
     <nav class="nav">
         <ul>
             <li class="active"><a href="{{ "/" | relative_url }}">Home</a></li>
