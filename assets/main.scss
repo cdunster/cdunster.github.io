@@ -38,7 +38,7 @@ pre {
     overflow-x: auto;
 }
 
-@import "sidebar";
+@import "sidebar", "index";
 
 @include media-query($on-palm) {
     .main-content {

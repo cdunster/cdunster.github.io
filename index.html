@@ -2,5 +2,25 @@
 layout: default
 ---
 
-<div class="home">
-</div>
+<section id="home">
+</section>
+
+<section id="about">
+    <h1>About</h1>
+</section>
+
+<section id="experience">
+    <h1>Experience</h1>
+</section>
+
+<section id="blog">
+    <h1>Blog</h1>
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            {{ post.excerpt }}
+        </li>
+        {% endfor %}
+    </ul>
+</section>
