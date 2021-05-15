@@ -1,11 +1,13 @@
 ---
-title: "Looking at GoLang"
-date: 2020-10-09
-summary: "Taking a look at the Go programming language."
+title: Looking at GoLang
+date: 2020-10-09T00:00:00+02:00
+summary: Taking a look at the Go programming language.
 tags: [development, go]
+type: Journal
+modified: 2021-05-15T23:58:23+02:00
 ---
 
-Time to have a look at the Go programming language, the one made by Google, not to be confused with [Go!] 😅.
+Time to have a look at the Go programming language, the one made by Google, not to be confused with [Go!] :sweat_smile:.
 
 In this article I'll go through my thoughts and first impressions and then move onto features that I think are noteworthy with examples so that I can review them in the future.
 
